@@ -1,0 +1,20 @@
+  deleteItem = (id) => {
+    console.log("Delete from TodoParent " + id);
+    // Delete the element with id
+    this.setState(state => {
+      // Use filter to remove the element with id
+      const todo = state.todo.filter(item => item.id !== id);
+      return { todo, };
+    });
+  }
+
+  addTodo = (newTitle) => {
+    console.log("addTodo from TodoParent: " + newTitle);
+    // Create the element to add with a unique id
+    const nextIdNumber = this.state.todo.length + this.guid();
+    const newTodoItem = { id: nextIdNumber, title: newTitle, completed: false };
+    // Changing the state
+    // Handling asynchronous changes of the state
+    this.setState((state) => ({ todo: [...this.state.todo, newTodoItem] }));
+  };
+  
