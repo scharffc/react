@@ -35,7 +35,7 @@ function App() {
     console.log(name)
     console.log(email)
     e.preventDefault()
-    fetch(`https://hooks.zapier.com/hooks/catch/16893332/38q6ilt/`, {
+    fetch(`url`, {
       method: "POST",
       body: JSON.stringify({name, email }),
   })
