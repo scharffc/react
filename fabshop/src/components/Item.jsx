@@ -13,7 +13,7 @@ const Item = () => {
     // useEffect lets you synchronize a component with an external system
     useEffect(() => { fetchItem() }, []);
   
-    // use of useParams in router 6 to receive the id that was provided in shop as shop/i
+
     const { id } = useParams();
 
     const fetchItem = async () => {

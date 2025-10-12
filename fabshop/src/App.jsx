@@ -12,6 +12,7 @@ import Shop from "./components/Shop";
 import About from "./components/About";
 import Item from "./components/Item";
 import Welcome from "./components/Welcome";
+import NoMatch from "./components/NoMatch";
 
 function App() {
 
@@ -52,6 +53,8 @@ function App() {
               <Route path="/shop/:id" element={<Item/>}>
               </Route>
               <Route path="/welcome" element={<Welcome/>}>
+              </Route>
+              <Route path="*" element={<NoMatch/>}>
               </Route>
             </Routes>
             </Container>
