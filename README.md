@@ -1,6 +1,6 @@
 # React Code 
 
-This repo contains React code that is used to introduce React in the software engineering class. It covers components, React bootstrap, routers, lotties, and the use of zapier.
+This repo contains React code that is used to introduce React in the software engineering class. It covers components, React bootstrap, routers, lotties, and the use of zapier. Some screenshots of the apps are provided. As React is evolving, some versionin information is provided (e.g., use of Vite or create-react-app, React Router 5 versus Rect Router 6 etc.) 
 
 ## javascript
 
@@ -54,6 +54,17 @@ Showcases how to use react bootstrap. This app also uses router, navbar, holoder
 <img width="161" height="150" alt="screenshotmobilecarousel" src="https://github.com/user-attachments/assets/84e7f979-da8e-4eb8-8a39-a934076788f6" />
 <img width="130" height="150" alt="screenshotmobile" src="https://github.com/user-attachments/assets/5130750f-ba9d-4b44-98e7-8948b56369ff" />
 <img width="277" height="200" alt="screenshotweb" src="https://github.com/user-attachments/assets/3955c469-0b9c-4edb-bb6a-0ded6681c5fd" />
+
+## fabshop
+
+```
+npm install react-router-dom 
+npm install react-bootstrap bootstrap 
+npm install holderjs
+npm install --save react-lottie
+```
+
+Showcases a shop application that used react bootstrap and the . This app also uses router, navbar, holoder and picsum _(created with vite and use of router 6)_
 
 
 
