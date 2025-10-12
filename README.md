@@ -1,6 +1,6 @@
 # React Code 
 
-This repo contains React code that is in the software engineering class. It covers components, React bootstrap, routers, lotties, and the use of zapier.
+This repo contains React code that is used to introduce React in the software engineering class. It covers components, React bootstrap, routers, lotties, and the use of zapier.
 
 ## javascript
 
