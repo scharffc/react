@@ -37,9 +37,11 @@ npm install react-router-dom
 
 ## bootstrapapp
 
-```npm install react-router-dom 
+```
+npm install react-router-dom 
 npm install react-bootstrap bootstrap 
 npm install holderjs
-npm install --save react-lottie```
+npm install --save react-lottie
+```
 
 Showcases how to use react bootstrap. This app also uses router, holoder and picsum _(created with create-react-app)_
