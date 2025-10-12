@@ -19,12 +19,12 @@ class Home extends React.Component {
 
     handleInputChange = (e) => {
         console.log("changeDate");
-        this.setState({ showAlert: this.state.showAlert, dob: e.target.value })
+        this.setState(() => ({ showAlert: this.state.showAlert, dob: e.target.value }))
     };
 
     saveDate = (e) => {
         console.log("saveDate");
-        this.setState({ showAlert: !this.state.showAlert, dob: this.state.dob });
+        this.setState(() => ({ showAlert: !this.state.showAlert, dob: this.state.dob }));
     };
 
     render() {
