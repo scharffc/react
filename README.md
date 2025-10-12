@@ -26,7 +26,7 @@ Showcases a todo app. It uses class components _(created with create-react-app)_
 
 ## routerapp
 
-Showcases how to use router that enables navigation between different views of a single-page react app _(created with create-react-app)_
+Showcases how to use router that enables navigation between different views of a single-page react app _(created with create-react-app and use of router 5)_
 
 ```
 npm install react-router-dom
@@ -46,7 +46,7 @@ npm install holderjs
 npm install --save react-lottie
 ```
 
-Showcases how to use react bootstrap. This app also uses router, navbar, holoder and picsum _(created with create-react-app)_
+Showcases how to use react bootstrap. This app also uses router, navbar, holoder and picsum _(created with create-react-app and use of router 5)_
 
 <img width="190" height="150" alt="screenshotmobileselect" src="https://github.com/user-attachments/assets/2251cc82-a691-45a7-b2ad-1c4ec5b4fc04" />
 <img width="165" height="150" alt="screenshotmobilelotties" src="https://github.com/user-attachments/assets/2419c2b2-a21e-4529-95a7-71c3895fd81b" />
