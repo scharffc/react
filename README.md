@@ -14,6 +14,8 @@ This repo contains React code that is in the software engineering class. It cove
 <img width="110" height="150" alt="screenshothouseapp1" src="https://github.com/user-attachments/assets/a81a8297-4fb0-4fd5-8a6a-2c3d6deee679" />
 
 * **routerapp** - showcases how to use router that enables navigation between different views of a single-page react app _(created with create-react-app)_
+
+npm install react-router-dom
   
 <img width="204" height="150" alt="screenshot2" src="https://github.com/user-attachments/assets/7fe81a4b-e42f-48e0-bbfe-90859b7a482d" />
 <img width="252" height="150" alt="screenshot3" src="https://github.com/user-attachments/assets/c7cf9a53-db21-4a9a-85ad-55a7218958bc" />
