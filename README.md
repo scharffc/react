@@ -48,12 +48,12 @@ npm install --save react-lottie
 
 Showcases how to use react bootstrap. This app also uses router, navbar, holoder and picsum _(created with create-react-app)_
 
-<img width="326" height="257" alt="screenshotmobileselect" src="https://github.com/user-attachments/assets/2251cc82-a691-45a7-b2ad-1c4ec5b4fc04" />
-<img width="324" height="293" alt="screenshotmobilelotties" src="https://github.com/user-attachments/assets/2419c2b2-a21e-4529-95a7-71c3895fd81b" />
-<img width="325" height="304" alt="screenshotmobileform" src="https://github.com/user-attachments/assets/a7a846ce-d886-4169-ada7-4934ccb28a05" />
-<img width="326" height="302" alt="screenshotmobilecarousel" src="https://github.com/user-attachments/assets/84e7f979-da8e-4eb8-8a39-a934076788f6" />
-<img width="323" height="372" alt="screenshotmobile" src="https://github.com/user-attachments/assets/5130750f-ba9d-4b44-98e7-8948b56369ff" />
-<img width="542" height="390" alt="screenshotweb" src="https://github.com/user-attachments/assets/3955c469-0b9c-4edb-bb6a-0ded6681c5fd" />
+<img width="190" height="150" alt="screenshotmobileselect" src="https://github.com/user-attachments/assets/2251cc82-a691-45a7-b2ad-1c4ec5b4fc04" />
+<img width="165" height="150" alt="screenshotmobilelotties" src="https://github.com/user-attachments/assets/2419c2b2-a21e-4529-95a7-71c3895fd81b" />
+<img width="160" height="150" alt="screenshotmobileform" src="https://github.com/user-attachments/assets/a7a846ce-d886-4169-ada7-4934ccb28a05" />
+<img width="161" height="150" alt="screenshotmobilecarousel" src="https://github.com/user-attachments/assets/84e7f979-da8e-4eb8-8a39-a934076788f6" />
+<img width="130" height="150" alt="screenshotmobile" src="https://github.com/user-attachments/assets/5130750f-ba9d-4b44-98e7-8948b56369ff" />
+<img width="277" height="200" alt="screenshotweb" src="https://github.com/user-attachments/assets/3955c469-0b9c-4edb-bb6a-0ded6681c5fd" />
 
 
 
