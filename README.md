@@ -7,4 +7,6 @@ This repo contains React code that is in the software engineering class. It cove
 * houseapp - showcases different class and function components and the use of state and state hooks (created with create-react-app)
 * routerapp - showcases how to use router that enables navigation between different views of a single-page react app (created with create-react-app)
 * todoapp - showcase a todo app. It uses class components (created with create-react-app)
+* <img width="216" height="150" alt="screenshottodoapp300" src="https://github.com/user-attachments/assets/72a3714d-0980-4341-8fb0-ca2cddc48a36" />
+
 
