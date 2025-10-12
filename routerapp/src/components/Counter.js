@@ -11,11 +11,11 @@ const Counter = (props) => {
     const appHistory = useHistory();
 
     const decrease = () => {
-        setCount(count - 1);
+        setCount(count => count - 1);
     };
 
     const increase = () => {
-        setCount(count + 1);
+        setCount(count => count + 1);
     };
 
     // using push needs to be outside render as this component has a state

@@ -14,7 +14,7 @@ const About = ({ match: { params: { name } } }) => (
     </Container>
 );
 
-// Second way to write about : by using this.props 
+// Second way to write about : by using props 
 
 /*
 const About = (props) => (
