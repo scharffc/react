@@ -6,7 +6,7 @@ This repo contains React code that is in the software engineering class. It cove
   
 * firstapp - presents the sample create-react-app with a Tile component that showcases props (created with create-react-app)
   
-<img width="415" height="385" alt="screenshotfirstapp" src="https://github.com/user-attachments/assets/4906d5b1-e3f8-4ffa-8e15-58a9817369ab" />
+<img width="162" height="150" alt="screenshotfirstapp" src="https://github.com/user-attachments/assets/4906d5b1-e3f8-4ffa-8e15-58a9817369ab" />
 
 * houseapp - showcases different class and function components and the use of state and state hooks (created with create-react-app)
 
