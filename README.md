@@ -1,6 +1,6 @@
 # React Code 
 
-This repo contains React code that is used to introduce React in the software engineering class. It covers components, React bootstrap, routers, lotties, and the use of zapier. Some screenshots of the apps are provided. As React is evolving, some versionin information is provided (e.g., use of Vite or create-react-app, React Router 5 versus Rect Router 6 etc.) 
+This repository contains example React code used to introduce React concepts in the Software Engineering undergraduate class at Pace University. It covers key topics such as components, React Bootstrap, routing, Lottie animations, and integration with Zapier. Screenshots of sample applications are included. Since React continues to evolve, the repository also notes version-specific details (e.g., use of Vite vs. Create React App, React Router v5 vs. v6, etc.).
 
 ## javascript
 
@@ -46,7 +46,7 @@ npm install holderjs
 npm install --save react-lottie
 ```
 
-Showcases how to use react bootstrap. This app also uses router, navbar, holoder and picsum _(created with create-react-app and use of router 5)_
+Showcases how to use react bootstrap. This app also uses router, navbar, holder and picsum _(created with create-react-app and use of router 5)_
 
 <img width="190" height="150" alt="screenshotmobileselect" src="https://github.com/user-attachments/assets/2251cc82-a691-45a7-b2ad-1c4ec5b4fc04" />
 <img width="165" height="150" alt="screenshotmobilelotties" src="https://github.com/user-attachments/assets/2419c2b2-a21e-4529-95a7-71c3895fd81b" />
@@ -60,11 +60,16 @@ Showcases how to use react bootstrap. This app also uses router, navbar, holoder
 ```
 npm install react-router-dom 
 npm install react-bootstrap bootstrap 
-npm install holderjs
-npm install --save react-lottie
+npm install react-async --save
 ```
 
-Showcases a shop application that used react bootstrap and the . This app also uses router, navbar, holoder and picsum _(created with vite and use of router 6)_
+Showcases a shop application that used react bootstrap and the (https://fakestoreapi.com)[fake store api]. This app also uses router and navbar _(created with vite and use of router 6)_
 
+<img width="104" height="200" alt="screenshotfabshopmobileabout" src="https://github.com/user-attachments/assets/4fd2f014-6ca7-4b8a-bec9-8ee374f56968" />
+<img width="104" height="200" alt="screenshotfabshopmobilewelcome" src="https://github.com/user-attachments/assets/b33172a7-e907-4e34-b4f7-f8a75e8f02b2" />
+<img width="104" height="200" alt="screenshotfabshopweb" src="https://github.com/user-attachments/assets/bdfb4e5b-c300-4862-bd7f-0e4253af3618" />
+<img width="104" height="200" alt="screenshotfabshopmobilehome" src="https://github.com/user-attachments/assets/7a3aa13d-e13c-4c72-88ff-c9d25e12f43e" />
+<img width="104" height="200" alt="screenshotfabshopmobileshop" src="https://github.com/user-attachments/assets/f404cee0-0490-4409-876d-6a7e71f902ce" />
+<img width="104" height="200" alt="screenshotfabshopmobileitem" src="https://github.com/user-attachments/assets/f8ad37bc-b671-4380-8c32-0551a55bd5d0" />
 
 
