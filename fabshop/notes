@@ -1,0 +1,14 @@
+           <Navbar collapseOnSelect bg="dark" variant="dark" expand="md" fixed="top">
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav defaultActiveKey="/"></Nav>
+              <Container>
+                <Navbar.Brand href="/">FabShop</Navbar.Brand>              
+                <Nav className="justify-content-center" fill-variant="pills">
+                  <Nav.Link href="/">Home</Nav.Link>
+                  <Nav.Link href="/shop">Shop</Nav.Link>
+                  <Nav.Link href="/about">About</Nav.Link>
+                </Nav>
+                </Container>
+                </Navbar.Collapse>
+              </Navbar>

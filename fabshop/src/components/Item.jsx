@@ -13,9 +13,9 @@ const Item = () => {
     // useEffect lets you synchronize a component with an external system
     useEffect(() => { fetchItem() }, []);
   
-
     const { id } = useParams();
 
+    // use of async and fetch to fetch the items online
     const fetchItem = async () => {
       const data = await fetch(`https://fakestoreapi.com/products/${id}`)
         .then(res => res.json())

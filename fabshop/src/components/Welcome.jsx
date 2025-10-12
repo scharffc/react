@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 
 const Welcome = () => {
 
+    // Returns the current Location. This can be useful if you'd like to perform some side effect whenever it changes
     const appLocation = useLocation();
   
     console.log(appLocation.state.username);
