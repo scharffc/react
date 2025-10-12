@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from './Counter.js';
+import CounterClass from './CounterClass.js';
 import Counter1 from './Counter1.js';
 import Counter2 from './Counter2.js';
 import Counter3 from './Counter3.js';
@@ -9,7 +9,7 @@ const Room = (props) => (
     <div>
         My Room : {" "}
         {props.name}
-        <Counter></Counter>
+        <CounterClass></CounterClass>
         <Counter1></Counter1>
         <Counter2></Counter2>
         <Counter3></Counter3>

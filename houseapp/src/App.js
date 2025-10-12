@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import House from './components/House';
+import HouseFunction from './components/HouseFunction';
 import Room from './components/Room'; // path
 
 function App() {
@@ -8,12 +8,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-            <House>
+            <HouseFunction>
               <Room name="Livingroom">
               </Room>
               <Room name="Kitchen">
               </Room>
-            </House>
+            </HouseFunction>
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,12 +1,9 @@
-// Class
-// Constructor
-// State
-// render - Text, 2 buttons + -, the value of the counter
-
 import React from 'react';
 import '../App.css';
 
-class Counter extends React.Component {
+// Class
+
+class CounterClass extends React.Component {
 
     // constructor
     constructor(props) {
@@ -16,19 +13,15 @@ class Counter extends React.Component {
     }
     
     decrease = () => {
-        console.log("decrease");
-        if (this.state.count === 0) {
-            console.log("do not change");
-        }
-        else {
-            this.setState({ count: this.state.count - 1 })
-            // Handle asynchronous access to the state
-            // this.setState((state) => ({count: this.state.count - 1}));
-        }
+        this.setState(
+                (count) => ({count: this.state.count - 1 })
+        )    
     }
 
     increase = () => {
-        this.setState({ count: this.state.count + 1 })
+        this.setState(
+                (count) => ({count: this.state.count + 1 })
+        ) 
     }
 
     // increase
@@ -49,4 +42,4 @@ class Counter extends React.Component {
 
 }
 
-export default Counter;
+export default CounterClass;
