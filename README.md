@@ -67,7 +67,6 @@ Showcases a shop application that used react bootstrap and the (https://fakestor
 
 <img width="104" height="200" alt="screenshotfabshopmobileabout" src="https://github.com/user-attachments/assets/4fd2f014-6ca7-4b8a-bec9-8ee374f56968" />
 <img width="104" height="200" alt="screenshotfabshopmobilewelcome" src="https://github.com/user-attachments/assets/b33172a7-e907-4e34-b4f7-f8a75e8f02b2" />
-<img width="104" height="200" alt="screenshotfabshopweb" src="https://github.com/user-attachments/assets/bdfb4e5b-c300-4862-bd7f-0e4253af3618" />
 <img width="104" height="200" alt="screenshotfabshopmobilehome" src="https://github.com/user-attachments/assets/7a3aa13d-e13c-4c72-88ff-c9d25e12f43e" />
 <img width="104" height="200" alt="screenshotfabshopmobileshop" src="https://github.com/user-attachments/assets/f404cee0-0490-4409-876d-6a7e71f902ce" />
 <img width="104" height="200" alt="screenshotfabshopmobileitem" src="https://github.com/user-attachments/assets/f8ad37bc-b671-4380-8c32-0551a55bd5d0" />
