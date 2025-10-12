@@ -29,15 +29,19 @@ class TodoParent extends Component {
   deleteItem = (id) => {
     console.log("Delete from TodoParent " + id);
     // Delete the element with id
-    this.setState({
-      // Use filter to remove the element with id
-      todo: this.state.todo.filter(item => item.id !== id)
-    })
-  }
+    this.setState(() => (
+      {
+        // Use filter to remove the element with id
+        todo: this.state.todo.filter(item => item.id !== id)
+      }
+    )
+  )
+}
 
   markComplete = (id) => {
     console.log("MarkComplete from TodoParent " + id);
     this.setState(
+      () => (
       {
         todo: this.state.todo.map((item, index) => {
           if (item.id === id) {
@@ -48,6 +52,7 @@ class TodoParent extends Component {
           return item;
         }),
       }
+    )
     );
   }
 
@@ -57,8 +62,8 @@ class TodoParent extends Component {
     const nextIdNumber = this.state.todo.length + this.guid();
     const newTodoItem = { id: nextIdNumber, title: newTitle, completed: false };
     // Handling asynchronous changes of the state
-    //this.setState((state) => ({ todo: [...this.state.todo, newTodoItem] }));
-    this.setState({ todo: [...this.state.todo, newTodoItem] });
+    // this.setState((state) => ({ todo: [...this.state.todo, newTodoItem] }));
+    this.setState(() => ({ todo: [...this.state.todo, newTodoItem] }));
   };
 
   // Produce a JSX element to show a single item
@@ -75,14 +80,13 @@ class TodoParent extends Component {
   render() {
     return (
       <div>
+        <h3>My Todo List</h3>
+        Click on the checkbox to consider a task completed
+        <AddTodo addTodoItem={this.addTodo} />
         {
           // Run this function once for each item in the todo array
           this.state.todo.map(this.makeOneTodoItem)
         }
-        {
-          // Notice how AddTodo is used 
-        }
-        <AddTodo addTodoItem={this.addTodo} />
       </div>
     );
   }

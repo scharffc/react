@@ -17,7 +17,7 @@ class TodoForm extends Component {
             this.input.current.value = ""; // clear input
           }}
         >
-          {" + "}
+          {"Add"}
         </button>
       </div>
     );
