@@ -10,8 +10,8 @@ This repo contains React code that is in the software engineering class. It cove
 
 * **houseapp** - showcases different class and function components and the use of state and state hooks (created with create-react-app)
 
-<img width="346" height="437" alt="screenshothouseapp2" src="https://github.com/user-attachments/assets/da2e158f-215d-4b5f-93b3-5e297fd83312" />
-<img width="314" height="427" alt="screenshothouseapp1" src="https://github.com/user-attachments/assets/a81a8297-4fb0-4fd5-8a6a-2c3d6deee679" />
+<img width="118" height="150" alt="screenshothouseapp2" src="https://github.com/user-attachments/assets/da2e158f-215d-4b5f-93b3-5e297fd83312" />
+<img width="110" height="150" alt="screenshothouseapp1" src="https://github.com/user-attachments/assets/a81a8297-4fb0-4fd5-8a6a-2c3d6deee679" />
 
 * **routerapp** - showcases how to use router that enables navigation between different views of a single-page react app (created with create-react-app)
   
