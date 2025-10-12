@@ -11,11 +11,14 @@ const Home = () => {
         phone: "",
     });
 
+    // Returns a function that lets you navigate programmatically in the browser in response to user interactions or effects
+
     const navigate = useNavigate();
 
     const handleOnSubmit = (event) => {
         event.preventDefault();
 
+        // navigate to another page
         navigate('/welcome', {state: state});
 
       //  React 5
