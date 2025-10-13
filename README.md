@@ -71,3 +71,5 @@ Showcases a shop application that used react bootstrap and the (https://fakestor
 <img width="104" height="200" alt="screenshotfabshopmobileshop" src="https://github.com/user-attachments/assets/f404cee0-0490-4409-876d-6a7e71f902ce" />
 <img width="104" height="200" alt="screenshotfabshopmobileitem" src="https://github.com/user-attachments/assets/f8ad37bc-b671-4380-8c32-0551a55bd5d0" />
 <img width="104" height="200" alt="screenshotfabshopweb" src="https://github.com/user-attachments/assets/e32b9d46-b514-4dd7-8990-45f3731e4508" />
+
+_**Disclosure: **This repo started with a program offered at Microsoft. I am grateful to have been part of this program and would like to thank the instructors who were part of the program. It is highly inspired by their leadership and collaboration._
